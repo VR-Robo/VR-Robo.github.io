@@ -140,7 +140,7 @@
                         <div class="columns is-centered">
                             <div class="column is-three-fifths is-centered has-text-centered">
                                 <figure>
-                                    <img src="./static/images/teaser.png" alt="figure1" style="width: 100%;">
+                                    <img src="./static/images/teaser-new.png" alt="figure1" style="width: 100%;">
                                 </figure>
                             </div>
                         </div>
@@ -199,9 +199,7 @@
                 <div class="column is-two-thirds">
                     <div class="content has-text-justified">
                         <p>
-                            We first reconstruct the 3D Gaussians and meshes of the environment and objects from the captured images. 
-                            These reconstructions are then randomly composed. After that, we train the policy network in simulation. 
-                            Finally, the policy is deployed to the real robot without requiring additional fine-tuning.
+                            We first reconstruct the geometry-consistent scenarios from the captured images with foundation model constraints. Then we build a realistic and interactive simulation environment with GS-mesh hybrid representation and occlusion-aware randomization and composition for policy training. Finally, we zero-shot transfer the RL policy trained in simulation into the real robot for ego-centric navigation and visual locomotion.
                         </p>
                     </div>
                 </div>
@@ -209,7 +207,7 @@
             <div class="columns is-centered">
                 <div class="column is-three-fifths is-centered has-text-centered">
                     <figure>
-                        <img src="./static/images/framework.jpg" alt="framework" style="width: 110%;">
+                        <img src="./static/images/framework-new.png" alt="framework" style="width: 110%;">
                     </figure>
                 </div>
             </div>
