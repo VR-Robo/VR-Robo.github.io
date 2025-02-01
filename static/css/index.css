@@ -106,9 +106,9 @@ body {
 
 .experiment-video {
     position: relative;
-    width: 30%;
+    width: 45%;
     height: 0;
-    padding-bottom: 16.7%;
+    padding-bottom: 26.7%;
     margin: auto;
     overflow: hidden;
     border: 2px solid #bbb;
